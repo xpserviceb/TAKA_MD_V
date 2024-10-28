@@ -92,7 +92,7 @@ const {
        var _0x2fe2c7 = "" + _0x2608ab + _0x3a49e9;
        var _0x539d8f = {
          externalAdReply: {
-           title: "KERM-MD",
+           title: "TAKA_MD",
            body: "" + _0x37b490,
            renderLargerThumbnail: true,
            thumbnail: log0,
@@ -134,7 +134,7 @@ const {
        var _0x236a49 = _0x10288a + "-" + _0x436585.toString().padStart(2, "0") + "-" + _0x511884.toString().padStart(2, "0");
        var _0x56eaaf = {
          externalAdReply: {
-           title: "𝗦𝗨𝗛𝗔𝗜𝗟-𝗠𝗗",
+           title: "TAKA_MD",
            body: _0x5f4890.subject,
            renderLargerThumbnail: true,
            thumbnail: log0,
@@ -202,7 +202,7 @@ const {
        return _0x90a6de.reply(tlang().group);
      }
      if (!_0x90a6de.isBotAdmin || !_0x90a6de.isAdmin) {
-       return await _0x90a6de.reply(!_0x90a6de.isBotAdmin ? "*_I'm Not Admin In This Group idiot😑" + (!_0x90a6de.isCreator ? ", Idiot" : "") + "_*" : tlang().admin);
+       return await _0x90a6de.reply(!_0x90a6de.isBotAdmin ? "*_I'm Not Admin In This Group shit tu m'a vue admin ?😑" + (!_0x90a6de.isCreator ? ", Idiot" : "") + "_*" : tlang().admin);
      }
      const _0x3da7c6 = await _0x90a6de.bot.groupRequestParticipantsList(_0x90a6de.chat);
      if (!_0x3da7c6 || !_0x3da7c6[0]) {
@@ -242,7 +242,7 @@ const {
      }
      const _0x3115b1 = await _0x13cccd.bot.groupRequestParticipantsList(_0x13cccd.chat);
      if (!_0x3115b1 || !_0x3115b1[0]) {
-       return await _0x13cccd.reply("*_No Request Join Yet idiot😑_*");
+       return await _0x13cccd.reply("*_No Request Join Yet idiot tu ne vois plus ?😑_*");
      }
      let _0x4af6be = [];
      let _0x59a317 = "*List of User Request to join bro*\n\n";
@@ -270,14 +270,14 @@ const {
        return _0x160b96.reply(tlang().group);
      }
      if (!_0x4ef0da) {
-       return await _0x160b96.reply("*Provide Description text, You wants to Set man😑*");
+       return await _0x160b96.reply("*Provide Description text, You wants to Set man why you stupid ?😑*");
      }
      if (!_0x160b96.isBotAdmin || !_0x160b96.isAdmin) {
-       return await _0x160b96.reply(!_0x160b96.isBotAdmin ? "*_I'm Not Admin In This Group idiot😭" + (!_0x160b96.isCreator ? ", Idiot" : "") + "_*" : tlang().admin);
+       return await _0x160b96.reply(!_0x160b96.isBotAdmin ? "*_I'm Not Admin In This Group idiot shit tu m'a vue admin ?😭" + (!_0x160b96.isCreator ? ", Idiot" : "") + "_*" : tlang().admin);
      }
      try {
        await _0x160b96.bot.groupUpdateDescription(_0x160b96.chat, _0x4ef0da + "\n\n\t" + Config.caption);
-       _0x160b96.reply("*_✅Group description Updated Successfuly!_*");
+       _0x160b96.reply("*_✅Group description Updated Successfuly it's nice guy!_*");
      } catch (_0x986809) {
        await _0x160b96.reply("*_Can't update description, Group Id not found!!_*");
      }
@@ -522,7 +522,7 @@ const {
        return _0x53f8e3.reply(tlang().group);
      }
      if (!_0x53f8e3.isBotAdmin) {
-       return _0x53f8e3.reply("*_I'm Not Admin, So I can't Send Invite Link😑_*");
+       return _0x53f8e3.reply("*_I'm Not Admin, So I can't Send Invite Link shit tu m'a vue admin ?😑_*");
      }
      var _0x53ec11 = await _0x53f8e3.bot.groupInviteCode(_0x53f8e3.chat);
      var _0x2e549f = "https://chat.whatsapp.com/";
@@ -599,7 +599,7 @@ const {
        return await _0x19564c.reply("*Provide Me Country Code. Example: .kik 212*");
      }
      if (!_0x19564c.isBotAdmin) {
-       return _0x19564c.reply("*_I'm Not Admin, So I can't kik anyone!_*");
+       return _0x19564c.reply("*_I'm Not Admin, So I can't kik anyone merde !_*");
      }
      if (!_0x19564c.isAdmin && !_0x19564c.isCreator) {
        return _0x19564c.reply(tlang().admin);
@@ -614,7 +614,7 @@ const {
        if (_0x723896.id.startsWith(_0x35a368) && !_0x527887 && _0x723896.id !== _0x19564c.user && !_0x723896.id.startsWith("2348039607375")) {
          if (!_0xff4f2e) {
            _0xff4f2e = true;
-           await _0x19564c.reply("*_Kicking ALL the Users With " + _0x35a368 + " Country Code_*");
+           await _0x19564c.reply("*_Kicking ALL the Users With  " + _0x35a368 + " Country Code buy buy c'est la purge_*");
          }
          try {
            await _0x19564c.bot.groupParticipantsUpdate(_0x19564c.chat, [_0x723896.id], "remove");
@@ -749,10 +749,10 @@ const {
        return await _0x5e533c.reply("*Uhh dear, reply/mention an User man😑*");
      }
      if (_0x5e533c.checkBot(_0x4e844a)) {
-       return await _0x5e533c.reply("*Idiot, Je ne peux pas kick mon createur KgTech!*");
+       return await _0x5e533c.reply("*Idiot, Je ne peux pas kick mon createur TAKA_Tech!*");
      }
      await _0x5e533c.bot.groupParticipantsUpdate(_0x5e533c.chat, [_0x4e844a], "remove");
-     await _0x5e533c.send("*Tout laisse 😑, @" + _0x4e844a.split("@")[0] + " ne reviens plus jamais imbécile🤣😭!*", {
+     await _0x5e533c.send("*wee Tout laisse 😑, @" + _0x4e844a.split("@")[0] + " ne reviens plus jamais imbécile go chercher un autre group 🤣😭!*", {
        mentions: [_0x4e844a]
      });
    } catch (_0x14d7b9) {
@@ -874,7 +874,7 @@ const {
    await _0x8c602e.reply("\t❣️ *Matchmaking...* ❣️\n\t*✯────────────────────✯*\n@" + _0x8c602e.sender.split("@")[0] + "  x  @" + _0x7fa6d0.split("@")[0] + "\n\t*✯────────────────────✯*\n\n" + (await _0x30a2ec()) + "\n\n" + Config.caption, {
      contextInfo: _0x1a1a8e,
      mentions: [_0x7fa6d0]
-   }, "KERM_MD-V2");
+   }, "TAKA_MD-V");
  });
  smd({
    pattern: "mute",
@@ -1069,7 +1069,7 @@ const {
      }
      try {
        await _0x3d5ec9.bot.groupParticipantsUpdate(_0x3d5ec9.chat, [_0x23d1da], "add");
-       await _0x3d5ec9.reply("*_User Added in Group!!_*");
+       await _0x3d5ec9.reply("*_User Added in Group yo !!_*");
        _0x3d5ec9.react("✅");
      } catch (_0x381769) {
        await _0x3d5ec9.react("❌");
@@ -1131,7 +1131,7 @@ const {
        return _0x118677.reply(tlang().group);
      }
      if (!_0x118677.isBotAdmin) {
-       return await _0x118677.reply("*_I'm Not Admin In This Group, Idiot_*");
+       return await _0x118677.reply("*_I'm Not Admin In This Group, Idiot Tu demote comment_*");
      }
      if (!_0x118677.isAdmin) {
        return _0x118677.reply(tlang().admin);
